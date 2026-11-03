@@ -151,7 +151,7 @@ ls
 次のように表示されれば OK です。
 
 ```
-Makefile  README.md  markdown.md  probable_prime.cpp
+Makefile  README.md  probable_prime.cpp  setup.md
 ```
 
 ---
