@@ -117,12 +117,12 @@ make --version
 
 ```sh
 cd ~
-git clone https://github.com/yoko-sanOSK/PrimeNumberJudge.git
-cd PrimeNumberJudge
+git clone https://github.com/yoko-sanOSK/PrimeNumberJudge2.git
+cd PrimeNumberJudge2
 ```
 
 - 1行目：ホームフォルダ（自分専用のフォルダ）に移動
-- 2行目：GitHub からプログラム一式をダウンロード（`PrimeNumberJudge` フォルダができる）
+- 2行目：GitHub からプログラム一式をダウンロード（`PrimeNumberJudge2` フォルダができる）
 - 3行目：そのフォルダの中に移動
 
 > 非公開リポジトリの場合はダウンロード時に GitHub のログインを求められます。
@@ -130,16 +130,16 @@ cd PrimeNumberJudge
 
 ### 方法2：ZIP でダウンロードする
 
-1. ブラウザで <https://github.com/yoko-sanOSK/PrimeNumberJudge> を開きます。
+1. ブラウザで <https://github.com/yoko-sanOSK/PrimeNumberJudge2> を開きます。
 2. 緑色の **「Code」** ボタン → **「Download ZIP」** を押します。
 3. ダウンロードした ZIP を展開（解凍）します。
 4. ターミナルで、展開したフォルダに移動します。例（Mac で「ダウンロード」フォルダに展開した場合）：
    ```sh
-   cd ~/Downloads/PrimeNumberJudge-main
+   cd ~/Downloads/PrimeNumberJudge2-main
    ```
    Windows（WSL）で Windows の「ダウンロード」フォルダに展開した場合：
    ```sh
-   cd /mnt/c/Users/<Windowsのユーザー名>/Downloads/PrimeNumberJudge-main
+   cd /mnt/c/Users/<Windowsのユーザー名>/Downloads/PrimeNumberJudge2-main
    ```
 
 ### 正しいフォルダにいるかの確認
@@ -439,8 +439,8 @@ wc -l result.txt       # 行数（= 概素数の個数）を数える
 
 ```sh
 # --- 最初の1回だけ ---
-git clone https://github.com/yoko-sanOSK/PrimeNumberJudge.git   # ダウンロード
-cd PrimeNumberJudge                                               # フォルダに移動
+git clone https://github.com/yoko-sanOSK/PrimeNumberJudge2.git    # ダウンロード
+cd PrimeNumberJudge2                                              # フォルダに移動
 make                                                              # ビルド
 
 # --- 通常モード ---

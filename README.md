@@ -1,4 +1,4 @@
-# PrimeNumberJudge
+# PrimeNumberJudge2
 
 商 $q$ の $\bmod 3$ を用いた概素数判定の高速走査＆精度評価プログラム（C++17）。
 
